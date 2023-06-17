@@ -1,0 +1,21 @@
+{
+    "name": "abdallah-zaghloul/design-patterns",
+    "description": "Design Patterns in PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AbdallahZaghloul\\DesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdallah-zaghloul",
+            "email": "3bdallahzaghloul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "7.4"
+    }
+}
