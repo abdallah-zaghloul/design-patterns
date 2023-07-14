@@ -1,0 +1,19 @@
+{
+    "name": "abdallah-zaghloul/basic-auth-third-party-library-adapter-example",
+    "description": "Basic Auth Third Party Library Adapter Example",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AbdallahZaghloul\\BasicAuthThirdPartyLibraryAdapterExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdallah-zaghloul",
+            "email": "3bdallahzaghloul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

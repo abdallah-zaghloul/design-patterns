@@ -32,6 +32,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/type-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/abdallah-zaghloul/basic-auth-third-party-library-adapter-example" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/abdallah-zaghloul/token-auth-third-party-library-adapter-example" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
