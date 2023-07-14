@@ -4,8 +4,65 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "160adebf8e3c46d93e9c50f70c333454",
-    "packages": [],
+    "content-hash": "1b424b223df629e2adebc87d9f1a743e",
+    "packages": [
+        {
+            "name": "abdallah-zaghloul/basic-auth-third-party-library-adapter-example",
+            "version": "dev-feature/structural",
+            "dist": {
+                "type": "path",
+                "url": "src/Structural/Adapter/ThirdPartyPackagesExample/BasicAuth",
+                "reference": "0690f97a20e0f06a3e770760fef5931904797aed"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AbdallahZaghloul\\BasicAuthThirdPartyLibraryAdapterExample\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "abdallah-zaghloul",
+                    "email": "3bdallahzaghloul@gmail.com"
+                }
+            ],
+            "description": "Basic Auth Third Party Library Adapter Example",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "abdallah-zaghloul/token-auth-third-party-library-adapter-example",
+            "version": "dev-feature/structural",
+            "dist": {
+                "type": "path",
+                "url": "src/Structural/Adapter/ThirdPartyPackagesExample/TokenAuth",
+                "reference": "e9e2d4fe733bb8b1156b7db3b4d944da0e293701"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AbdallahZaghloul\\TokenAuthThirdPartyLibraryAdapterExample\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "abdallah-zaghloul",
+                    "email": "3bdallahzaghloul@gmail.com"
+                }
+            ],
+            "description": "Token Auth Third Party Library Adapter Example",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/deprecations",
@@ -1734,7 +1791,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
