@@ -10,7 +10,7 @@ problems examples :
 importance :
 - speed up the development process by providing tested proven development paradigms
 - making the overall system easier to understand and maintainable
-- easy developers communication when discussing system design
+- easy developer's communication when discussing system design
 
 |                          | Design Patterns | Design Principles |
 |--------------------------|-----------------|-------------------|
@@ -19,9 +19,6 @@ importance :
 
 
 types :
-- Creational : class-object instantiation or creation
-- Structural : organizing diff classes-objects during forming larger complex structure providing new functionality
-- Behavioral : communication bet objects
 
 |           | Creational                             | Structural                                                                                          | Behavioral                |
 |-----------|----------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------|
