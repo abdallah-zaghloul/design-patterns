@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b424b223df629e2adebc87d9f1a743e",
+    "content-hash": "12b17e23b7d780eba97e9fb2aa32f5eb",
     "packages": [
         {
             "name": "abdallah-zaghloul/basic-auth-third-party-library-adapter-example",
-            "version": "dev-feature/structural",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "src/Structural/Adapter/ThirdPartyPackagesExample/BasicAuth",
@@ -36,7 +36,7 @@
         },
         {
             "name": "abdallah-zaghloul/token-auth-third-party-library-adapter-example",
-            "version": "dev-feature/structural",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "src/Structural/Adapter/ThirdPartyPackagesExample/TokenAuth",
@@ -525,7 +525,7 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.7.2"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.x"
             },
             "time": "2023-05-30T18:13:47+00:00"
         },
@@ -626,7 +626,6 @@
                 "phpunit/phpunit": "^9.5",
                 "symfony/process": "^5.2"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1792,7 +1791,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": 20
+        "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": 20,
+        "abdallah-zaghloul/token-auth-third-party-library-adapter-example": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

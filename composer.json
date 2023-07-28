@@ -31,8 +31,8 @@
         "phpunit/phpunit": "7.4"
     },
     "require": {
-        "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": "dev-feature/structural",
-        "abdallah-zaghloul/token-auth-third-party-library-adapter-example": "dev-feature/structural"
+        "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": "dev-master",
+        "abdallah-zaghloul/token-auth-third-party-library-adapter-example": "dev-master"
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
