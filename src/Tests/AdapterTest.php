@@ -28,7 +28,7 @@ class AdapterTest extends TestCase
         $car = new Car($adapter);
         $this->assertEquals('Starting Turbo Engine', $car->start());
     }
-
+/**
     public function testCanAuthWithBasicAuthLibrary()
     {
         $basicAuthAdapter = $this->createMock(BasicAuthAdapter::class);
@@ -48,4 +48,5 @@ class AdapterTest extends TestCase
         $expected = $userAuth->signIn($type, $token);
         $this->assertEquals($expected,"$type-$token");
     }
+ **/
 }

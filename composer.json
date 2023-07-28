@@ -33,5 +33,8 @@
     "require": {
         "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": "dev-feature/structural",
         "abdallah-zaghloul/token-auth-third-party-library-adapter-example": "dev-feature/structural"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
