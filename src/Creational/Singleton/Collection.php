@@ -34,7 +34,7 @@ class Collection extends Singleton
      */
     public function get(string $key)
     {
-        return @$this->data[$key];
+        return null_catch($this->data, $key);
     }
 
     /**

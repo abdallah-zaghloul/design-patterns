@@ -32,7 +32,7 @@ class ItemDiscount extends Discount
      */
     public function getItemDiscount(?int $itemId): float
     {
-        return @$this->getItemDiscounts()[$itemId] ?? 0.0;
+        return null_catch($this->getItemDiscounts(), $itemId, 0.0);
     }
 
     /**

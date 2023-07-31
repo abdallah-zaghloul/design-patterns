@@ -37,7 +37,7 @@ abstract class Discount
      */
     public function getDayDiscount(string $day): float
     {
-        return @$this->getDayDiscounts()[$day] ?? 0.0;
+        return null_catch($this->getDayDiscounts(), $day, 0.0);
     }
 
 }

@@ -25,7 +25,7 @@ class DB
      */
     public function findById(string $id): ?array
     {
-        return @$this->data[$id];
+        return null_catch($this->data, $id);
     }
 
 
