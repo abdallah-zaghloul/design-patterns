@@ -28,7 +28,7 @@
     ],
     "minimum-stability": "dev",
     "require-dev": {
-        "phpunit/phpunit": "7.4"
+        "phpunit/phpunit": "7.*"
     },
     "require": {
         "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": "dev-master",
@@ -39,7 +39,7 @@
     },
     "config": {
         "platform": {
-            "php": "7.4"
+            "php": "7.4.33"
         }
     }
 }
