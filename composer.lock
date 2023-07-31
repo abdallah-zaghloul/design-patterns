@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fec5b84724139bc1d1c54ad83709ba08",
+    "content-hash": "59df709b345a9b0fe1382981339d667f",
     "packages": [
         {
             "name": "abdallah-zaghloul/basic-auth-third-party-library-adapter-example",
@@ -1797,10 +1797,9 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "platform-overrides": {
-        "php": "7.4"
+    "platform": {
+        "php": "7.4.33"
     },
+    "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
