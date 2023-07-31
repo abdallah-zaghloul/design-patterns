@@ -27,19 +27,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require-dev": {
-        "phpunit/phpunit": "7.4"
-    },
     "require": {
+        "php": "7.4",
         "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": "dev-master",
         "abdallah-zaghloul/token-auth-third-party-library-adapter-example": "dev-master"
     },
+    "require-dev": {
+        "phpunit/phpunit": "7.4"
+    },
     "scripts": {
         "test": "vendor/bin/phpunit"
-    },
-    "config": {
-        "platform": {
-            "php": "7.4"
-        }
     }
 }
