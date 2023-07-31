@@ -28,7 +28,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "7.4.33",
+        "php": "7.4.*",
         "abdallah-zaghloul/basic-auth-third-party-library-adapter-example": "dev-master",
         "abdallah-zaghloul/token-auth-third-party-library-adapter-example": "dev-master"
     },
